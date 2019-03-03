@@ -1,0 +1,111 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 1300px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-left:  10px;
+}
+
+header, nav {
+    position: fixed;
+    z-index: 1;
+}
+
+nav {
+    padding-top: 95px;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 13px;
+    margin-top: 0;
+}
+
+nav li {
+    margin-bottom: 13px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#hero-section {
+    background-image: url(trevor.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#hero-text {
+  text-align: center;
+  position: relative;
+  padding-top: 240px;
+  color: white;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+#hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 15px 50px;
+  color: white;
+  background-color: #3F365A;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+
+#content-one {
+    background-color: #212121;
+    height: 75%;
+    position: relative;
+}
+
+.body-text-layout {
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.white-text-head {
+    font-size: 96px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.white-text {
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
+
+#content-two {
+    background-color: #3F365A;
+    height: 75%;
+    position: relative;
+}
+
+#content-three {
+    background-color: #5A3652;
+    height: 75%;
+    position: relative;
+}
