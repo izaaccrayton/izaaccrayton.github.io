@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+/*This Sidebar skeleton was generously acquired from https://bootstrapious.com/p/bootstrap-sidebar. It was tweaked and modified to fit this project*/
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+    color: #7386D5;
+    transition: all 0.3s;
+}
+
+body {
+    font-family: 'Source Sans pro', sans-serif;
+    background: #F9FAFC;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #273444;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #ffffff;
+}
+
+#sidebar ul p {
+    color: #7386D5;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 15px;
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #EFF2F7;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #7386D5;
+    background: #EFF2F7;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="false"] {
+    color: #273444;
+    background: #ffffff;
+}
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    color: #273444;
+    background: #ffffff;
+}
+
+/*Adds borders outer list*/
+#add-border {
+    border-style: solid none none none;
+    border-top-width: .05px;
+    border-top-color: #E8E8E8;
+}
+
+/* removes borders on inner lists */
+.remove-border {
+    border-style: none;
+}
+
+/* Moves the dropdown icons to the right*/
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    opacity: .5;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+/* Original Code */
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+#space-sub-heading {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #273444;
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+
+#social-wrap {
+    text-align: center;
+    padding-left: 10px;
+}
+
+#facebook {
+    width: 5%;
+    margin-right: 10px;
+}
+
+.social {
+    width: 10%;
+    margin-right: 10px;
+}
+
+#arr {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #273444;
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+
+.sidebar-footer {
+    padding: 20px;
+    margin-top: -16px;
+    background: #ffffff;
+    border-style: solid none none none;
+    border-top-width: .05px;
+    border-top-color: #E8E8E8;
+}
+
+
+#content {
+    width: calc(100% - 220px);
+    padding: 70px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #273444;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.lg-content-box {
+    background: white;
+    padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: #E8E8E8;
+    border-radius: 3px;
+}
+
+.example-heads {
+    font-family:'Playfair Display', serif; 
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.tiny-text {
+    font-size: 14px;
+}
+
+.line-break {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+/*footer code abridged for simplicity */
+
+#footer {
+	padding: 51px 0;
+	overflow: hidden;
+	background: #fff;
+	color: rgba(0, 0, 0, .5);
+	border-top: 1px solid #f8f8f8;
+}
+
+#footer .footer-logo {
+	margin: 0 0 19px;
+	display: block;
+}
+
+#footer .footer-logo a {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#footer .footer-logo img {
+	display: block;
+	height: auto;
+	max-width: 30%;
+}
+
+#footer address {
+	padding: 0 50px 0 0;
+	margin: 0 0 34px;
+	font-style: normal;
+}
+
+#footer address p {
+	margin: 0;
+}
+
+#footer address p a {
+	color: rgba(0, 0, 0, .5);
+	text-decoration: none;
+	-webkit-transition: color .5s ease-in-out;
+	transition: color .5s ease-in-out;
+}
+
+#footer address p a:hover {
+	color: #000;
+}
+
+#footer .title-nav {
+	display: block;
+}
+
+#footer .bottom-row {
+	padding: 26px 0 0;
+	overflow: hidden;
+	border-top: 1px solid #ebebeb;
+}
+
+#footer .sub-title {
+	display: block;
+	font-size: 11px;
+}
+
+#footer .bottom-block p {
+	margin: 0;
+}
+
+.footer-nav {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.footer-nav li {
+	position: relative;
+}
+
+.footer-nav li:last-child {
+	margin: 0;
+}
+
+.footer-nav li a {
+	display: inline-block;
+	vertical-align: top;
+	color: rgba(0, 0, 0, .5);
+	text-decoration: none;
+	-webkit-transition: color .5s ease-in-out;
+	transition: color .5s ease-in-out;
+}
+
+.footer-nav li a:hover {
+	color: #000;
+}
+
+.tiny-card {
+    background: white;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: #E8E8E8;
+    border-radius: 3px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.tiny-card-txt-dark {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.tiny-card-txt-light {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#content ul {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#content ul li {
+    font-size: 16px;
+    font-weight: 300;
+    list-style-type: square;
+}
+
+.within-text {
+    background: #E5E9F2;
+    padding: 4px;
+}
+
+.btn {
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    background-color: #262262;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.btn-outline {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #262262;
+    background-color: white;
+    border-style: solid;
+    border-color: #262262;
+    border-width: .5;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.snippet {
+    background: #2E3E4F;
+    display: block;
+    width: 100%;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: #E8E8E8;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+input {
+    margin-bottom: 10px;
+    width: 50%;
+}

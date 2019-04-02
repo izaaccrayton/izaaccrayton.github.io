@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1010" height="328" viewBox="0 0 1010 328">
+  <defs>
+    <filter id="Rectangle_21" x="0" y="0" width="1010" height="117" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_26" x="0" y="0" width="126" height="117" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_27" x="884" y="0" width="126" height="117" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_125" data-name="Group 125" transform="translate(-291 -350)">
+    <g transform="matrix(1, 0, 0, 1, 291, 350)" filter="url(#Rectangle_21)">
+      <rect id="Rectangle_21-2" data-name="Rectangle 21" width="950" height="57" transform="translate(27 24)" fill="#a6e9f8"/>
+    </g>
+    <text id="_1170px" data-name="1170px" transform="translate(766 454.319)" fill="#273444" font-size="16" font-family="PTMono-Bold, PT Mono" font-weight="700"><tspan x="0" y="14">1170px</tspan></text>
+    <line id="Line_13" data-name="Line 13" x1="370" transform="translate(383.5 463.5)" fill="none" stroke="#a6e9f8" stroke-width="1"/>
+    <line id="Line_14" data-name="Line 14" x2="370" transform="translate(832.5 463.5)" fill="none" stroke="#a6e9f8" stroke-width="1"/>
+    <line id="Line_15" data-name="Line 15" y2="31" transform="translate(383.5 447.5)" fill="none" stroke="#a6e9f8" stroke-width="1"/>
+    <line id="Line_16" data-name="Line 16" y2="36" transform="translate(1202.5 445.5)" fill="none" stroke="#a6e9f8" stroke-width="1"/>
+    <g id="Group_124" data-name="Group 124" transform="translate(0 -34)">
+      <g id="Rectangle_23" data-name="Rectangle 23" transform="translate(372 552)" fill="#fff" stroke="#cbcbcb" stroke-width="1" stroke-dasharray="3">
+        <rect width="299" height="70" stroke="none"/>
+        <rect x="0.5" y="0.5" width="298" height="69" fill="none"/>
+      </g>
+      <text id="Content_Area" data-name="Content Area" transform="translate(396 572.319)" fill="#273444" font-size="20" font-family="SourceSansPro-Light, Source Sans Pro" font-weight="300"><tspan x="0" y="20">Content Area</tspan></text>
+      <g id="Rectangle_24" data-name="Rectangle 24" transform="translate(372 642)" fill="#fff" stroke="#cbcbcb" stroke-width="1" stroke-dasharray="3">
+        <rect width="299" height="70" stroke="none"/>
+        <rect x="0.5" y="0.5" width="298" height="69" fill="none"/>
+      </g>
+      <text id="Content_Area-2" data-name="Content Area" transform="translate(396 662.319)" fill="#273444" font-size="20" font-family="SourceSansPro-Light, Source Sans Pro" font-weight="300"><tspan x="0" y="20">Content Area</tspan></text>
+      <rect id="Rectangle_25" data-name="Rectangle 25" width="299" height="20" transform="translate(372 622)" fill="#a6e9f8"/>
+      <text id="_20px" data-name="20px" transform="translate(320 623.319)" fill="#273444" font-size="12" font-family="PTMono-Bold, PT Mono" font-weight="700"><tspan x="0.446" y="11">20px</tspan></text>
+      <line id="Line_17" data-name="Line 17" x2="15" transform="translate(353.5 622.5)" fill="none" stroke="#a6e9f8" stroke-width="1"/>
+      <line id="Line_18" data-name="Line 18" x2="15" transform="translate(353.5 641.5)" fill="none" stroke="#a6e9f8" stroke-width="1"/>
+      <line id="Line_19" data-name="Line 19" y2="19" transform="translate(361.5 622.5)" fill="none" stroke="#a6e9f8" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 291, 350)" filter="url(#Rectangle_26)">
+      <rect id="Rectangle_26-2" data-name="Rectangle 26" width="66" height="57" transform="translate(27 24)" fill="#667bf0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 291, 350)" filter="url(#Rectangle_27)">
+      <rect id="Rectangle_27-2" data-name="Rectangle 27" width="66" height="57" transform="translate(911 24)" fill="#667bf0"/>
+    </g>
+  </g>
+</svg>

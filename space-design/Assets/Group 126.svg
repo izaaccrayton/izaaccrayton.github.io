@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1146" height="783" viewBox="0 0 1146 783">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7e9ddb"/>
+      <stop offset="1" stop-color="#7171c4"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_126" data-name="Group 126" transform="translate(-220)">
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="1146" height="783" transform="translate(220)" fill="url(#radial-gradient)"/>
+    <text id="EXPLORE_OUR_DESIGN_SYSTEM" data-name="EXPLORE OUR DESIGN SYSTEM" transform="translate(793 394)" fill="#fff" font-size="20" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700" letter-spacing="0.1em"><tspan x="-157.89" y="0">EXPLORE OUR DESIGN SYSTEM</tspan></text>
+  </g>
+</svg>
