@@ -8,6 +8,7 @@
     width: 100%;
 }
 
+
 #sidebar {
     width: 220px;
     position: fixed;
@@ -387,4 +388,73 @@ h1 {
 input {
     margin-bottom: 10px;
     width: 50%;
+}
+
+@media (max-width: 1000px) {
+    #sidebar {
+        width: 100px;
+    }
+
+    #sidebar ul li a {
+        display: none;
+    }
+    
+    #facebook {
+        width: 25%;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .social {
+        width: 50%;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    
+    #content {
+        width: calc(100% - 100px);
+    }
+}
+
+@media (max-width: 650px) {
+     #sidebar {
+        height: 70px;
+        width: 100%;
+        z-index: 99;
+        position: fixed;
+    }
+    
+    #content {
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    #facebook {
+        display: none;
+    }
+
+    .social {
+        display: none;
+    }
+    
+    #arr {
+        display: none;
+    }
+    
+    .sidebar-footer {
+        display: none;
+    }
+    
+    #logo {
+        height: 40px;
+        width: 40px;
+        margin: 0;
+        display: inline;
+    }
+    
+    #space-sub-heading {
+        text-align: left;
+        display: inline-block;
+        margin-left: 10px;
+    }
 }
