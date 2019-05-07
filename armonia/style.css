@@ -421,7 +421,7 @@ navbar-fixed-top .nav-up {
 
 .article-selector .post-category-sm {
     text-align: center;
-    margin-top: 365px;
+    margin-top: 375px;
     z-index: 998;
 }
 
@@ -594,11 +594,34 @@ navbar-fixed-top .nav-up {
 
 @media (max-width: 575px) {
     .article-selector .post-category-sm {
-        margin-top: 397px;
+        margin-top: 415px;
+    }
+    
+    .navbar-brand img {
+        min-width: 102px;
+    }
+    
+    .navbar-toggler {
+        margin-left: calc(100vw - 70px);
+    }
+    
+      .display-4 {
+        width: 100%;
+    }
+    
+    .lead {
+        width: 100%;
+        font-size: 16px;
     }
 }
 
 
+@media (max-width: 430px) {
+    .jumbotron.jumbotron-fluid {
+        height: 90vh;
+    }
+    
+}
 
 
 
