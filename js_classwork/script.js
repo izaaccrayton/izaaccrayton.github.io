@@ -5,12 +5,20 @@ function countAll() {
 
 function countSectionOne() {
     var div = document.getElementById("section-1");
+    div.style.backgroundColor = "red"
     var nodelist = div.getElementsByTagName("P");
-    alert('There are ' + nodelist.length + ' Elements');
+    
+    document.getElementById("state").innerHTML = nodelist.length;
 }
 
 function countSectionTwo() {
     var div = document.getElementById("section-2");
+    div.style.backgroundColor = "blue"
     var nodelist = div.getElementsByTagName("P");
-    alert('There are ' + nodelist.length + ' Elements');
+    
+    document.getElementById("state").innerHTML = nodelist.length;
+}
+
+function whiteOut(obj) {
+    obj.style.backgroundColor = "white";
 }
